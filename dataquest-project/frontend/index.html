@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DataQuest - Normalización y Gamificación</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="./frontend/assets/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'brand-dark': '#15162c',
+                        'brand-card': '#20213d',
+                        'brand-purple': '#7e22ce',
+                        'brand-blue': '#3b82f6',
+                        'brand-sidebar': '#1a1b2e',
+                    },
+                    backgroundImage: {
+                        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans antialiased">
+    <div id="app" class="min-h-screen"></div>
+    <script src="./frontend/js/api.js"></script>
+    <script src="./frontend/js/auth.js"></script>
+    <script src="./frontend/js/components/Login.js"></script>
+    <script src="./frontend/js/components/Navbar.js"></script>
+    <script src="./frontend/js/components/Validador.js"></script>
+    <script src="./frontend/js/components/Puzzles.js"></script>
+    <script src="./frontend/js/components/Retos.js"></script>
+    <script src="./frontend/js/components/AdminPanel.js"></script>
+    <script src="./frontend/js/components/Puntuaciones.js"></script>
+    <script src="./frontend/js/app.js"></script>
+</body>
+</html>
